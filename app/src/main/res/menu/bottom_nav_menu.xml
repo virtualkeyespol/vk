@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bdispositivos"
+        android:icon="@drawable/puerta"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/bllaves"
+        android:icon="@drawable/llave"
+        android:title="@string/title_dashboard" />
+
+    <item
+        android:id="@+id/bregistros"
+        android:icon="@drawable/historial"
+        android:title="@string/title_notifications" />
+
+    <item
+        android:id="@+id/bperfil"
+        android:icon="@drawable/perfil"
+        android:title="Perfil" />
+
+</menu>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fdispositivos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAEFF3"
+    tools:context=".dispositivos">
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/vaciod"
+        android:layout_width="203dp"
+        android:layout_height="95dp" />
+
+
+</FrameLayout>
+
