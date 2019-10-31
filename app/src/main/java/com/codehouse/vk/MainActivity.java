@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences preferences = getSharedPreferences("credenciales", Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = preferences.edit();
         editor.putString("TOKEN", token);
-        editor.putString("URL", "http://ec2-54-233-206-161.sa-east-1.compute.amazonaws.com:8000");
+        editor.putString("URL", "http://34.95.134.203");
         editor.commit();
     }
 
